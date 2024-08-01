@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(37, 34, 34);
+    color:#FFDA76;
+    margin: 0 30px;
+}
+
+/* navigation design */
+
+.hover-effect:hover{
+    filter: drop-shadow(3px 3px 15px #FFDA76);
+}
+
+/* slot-1 designing */
+
+.slot-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    
+}
+.slot-1 span{
+    color:rgb(236, 228, 228);
+    text-shadow: 2px 2px 15px #FFDA76;
+}
+.slot-1-inner{
+    border-left: 2px solid #FFDA76;
+    border-width: 12px;
+    padding-left:42px;
+
+}
+.slot-1-inner h1{
+    font-size: 100px;
+}
+.slot-1-inner h2{
+    font-size: 80px;
+}
+.slot-1-inner{
+    font-size:50px;
+}
+
+/* slot-2 designing */
+.slot-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.class{
+    display: flex;
+    align-items: center;
+    padding:12px;
+}
+.class img{
+    border-radius:3px;
+    margin-right:12px;
+    width: 150px;
+    height:110px;
+    filter: grayscale(90%);
+}
+.slot-2-left{
+    border-right: 2px solid #FFDA76;
+    border-width: 2px;
+    padding-right: 300px;
+}
+.slot-2-right{
+    width: 400px;
+}
+
+.skill-progress{
+    margin:20px;
+    height:30px;
+    background-color:rgb(75, 67, 67);
+    font-size: 20px;
+    font-style: italic;
+}
+.education h2{
+    font-size: 60px;
+}
+.skills h2{
+    font-size:60px;
+}
+/* slot 3 starts here  */
+
+.slot-3{
+    text-align: center;
+    margin-top: 10rem;
+}
+.slot-3 h1{
+    font-size:60px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.project{
+    width: 39rem;
+    text-align: left;
+}
+.project p{
+    font-size: 20px;
+}
+
+/* slot-4 starts */
+.slot-4{
+    display:flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 12rem;
+}
+.slot-4 h1{
+    font-size:60px;
+}
+.slot-4 li{
+    font-size:20px ;
+    list-style-type: square;
+}
